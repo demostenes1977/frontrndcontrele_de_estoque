@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Controle de Estoque</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Controle de Estoque</h1>
+
+    <div class="menu">
+        <button onclick="adicionarItem()">ADICIONAR</button>
+        <button onclick="removerItem()">REMOVER</button>
+        <button onclick="consultarItem()">CONSULTAR</button>
+        <button onclick="listarItens()">LISTAR</button>
+        <button onclick="cadastrarFornecedor()">CADASTRAR</button>
+        <button onclick="emitirNotaFiscal()">EMITIR NOTA FISCAL</button>
+    </div>
+
+    <table id="tabelaEstoque">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Descrição do Produto</th>
+                <th>Tipo Unitário</th>
+                <th>Fornecedor</th>
+                <th>Estoque Mín.</th>
+                <th>Estoque Inicial</th>
+                <th>Estoque Atual</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
